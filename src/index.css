@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #16213E;
+  --secondary: #0F3460;
+  --terceary: #509aee;
+  --red: #02034e;
+  --soft-white: #000000;
+  --black: #111;
+  --white: #ffffff;
+  --gray: #222222;
+  
+  font-family: Arial, sans-serif; 
+}
