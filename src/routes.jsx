@@ -7,7 +7,7 @@ import Contatos from "./pages/Contatos";
 function AppRoutes () {
    return (
       
-      <BrowserRouter basename="/ReactPw">
+      <HashRouter basename="/ReactPw">
        
 
        <Routes>
@@ -20,7 +20,7 @@ function AppRoutes () {
 
 
 
-          </BrowserRouter>
+          </HashRouter>
    )
    
 }
