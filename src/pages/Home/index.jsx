@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Sobre from '../Sobre'
 import { Link } from 'react-router-dom'
+import imagemLegal from '/slakkk.svg'
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
                     </Link>
                 </div>
                 <figure>
-                    <img Classnme='img-home' src="public/slakkk.svg" alt="imagem da home" />
+                    <img Classnme='img-home' src={imagemLegal} alt="imagem da home" />
                 </figure>
             </section>
             <Footer />
